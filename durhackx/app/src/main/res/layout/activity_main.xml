@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/leftButton"
+        android:layout_width="239dp"
+        android:layout_height="173dp"
+        android:text="Left"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <Button
+        android:id="@+id/rightButton"
+        android:layout_width="237dp"
+        android:layout_height="171dp"
+        android:text="RIght"
+        tools:layout_editor_absoluteX="893dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Button
+        android:id="@+id/fireButton"
+        android:layout_width="249dp"
+        android:layout_height="171dp"
+        android:text="Fire"
+        tools:layout_editor_absoluteX="507dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <Button
+        android:id="@+id/setupButton"
+        android:layout_width="248dp"
+        android:layout_height="187dp"
+        android:text="Setup"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+    <Button
+        android:id="@+id/shutdownButton"
+        android:layout_width="230dp"
+        android:layout_height="177dp"
+        android:text="Shutdown"
+        tools:layout_editor_absoluteX="771dp"
+        tools:layout_editor_absoluteY="529dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
